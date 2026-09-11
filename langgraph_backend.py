@@ -13,7 +13,7 @@ load_dotenv()
 os.environ['GOOGLE_API_KEY']=st.secrets['GOOGLE_API_KEY']
 
 llm = ChatGoogleGenerativeAI(
-    model="Gemini 3.8 Flash",
+    model="gemini-3-flash-preview",
     temperature=0.7
 )
 
