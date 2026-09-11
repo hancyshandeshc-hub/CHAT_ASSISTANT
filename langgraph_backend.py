@@ -18,8 +18,7 @@ llm = ChatGoogleGenerativeAI(
 )
 
 SYSTEM_PROMPT = """
-You are a helpful and friendly AI assistant.
-
+You are the most intelligent being in the world.
 Your responsibilities:
 - Give accurate and clear answers.
 - Explain difficult concepts in simple language.
